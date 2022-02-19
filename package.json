@@ -1,0 +1,15 @@
+{
+  "name": "cryptopunk_clone",
+  "version": "1.0.0",
+  "description": "This is to help you generate all the cryptopunk nft images",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --max-old-space-size=4096 index.js",
+    "build": "node index.js"
+  },
+  "author": "Victor Lam",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.8.0"
+  }
+}
